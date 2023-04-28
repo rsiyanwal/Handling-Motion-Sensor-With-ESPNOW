@@ -3,5 +3,5 @@ Motion sensors play a crucial role in the functioning of IoT devices as they ena
 
 The Motion Sensor module (depicted below) comprises a Pyroelectric Sensor that produces energy upon exposure to heat. As a result, when a human or an animal body enters the sensor's range, it detects the movement since the body emits heat energy in the form of infrared radiation. The sensor doesn't use any energy for detection; it only operates by sensing energy emitted by other objects. For this reason, it's also known as a Passive Infrared Sensor or PIR Sensor.
 
-![(a) Pyroelectric Sensor along with circuit; (b) Fresnel Lens; (c) Motion Sensor Module](https://user-images.githubusercontent.com/11557572/235118671-452e3983-997a-44bd-bd39-786f2398b59a.png)
- _( by [Rahul Siyanwal](https://github.com/rsiyanwal))_
+![Motion Sensor](https://user-images.githubusercontent.com/11557572/235118671-452e3983-997a-44bd-bd39-786f2398b59a.png)</br>
+ _((a) Pyroelectric Sensor along with circuit; (b) Fresnel Lens; (c) Motion Sensor Module; by [Rahul Siyanwal](https://github.com/rsiyanwal))_
