@@ -1,4 +1,4 @@
-# Handling-Motion-Sensor-With-NodeMCU
+# Handling-Motion-Sensor-With-ESPNOW
 Motion sensors play a crucial role in the functioning of IoT devices as they enable them to detect movement and react accordingly. They have versatile applications, including security systems, energy-efficient lighting, and smart home automation. Motion sensors can trigger actions like turning on lights or sending alerts to a user's phone, making them an essential tool for both convenience and safety. Moreover, they can be combined with other sensors, like temperature and humidity sensors, to build more advanced and responsive IoT systems that can adapt to their surroundings. Overall, motion sensors enhance the capabilities of IoT devices, making them more efficient and effective in their tasks.
 
 The Motion Sensor that we chose for this experiment is Panasonic EKMC160311. The decision is based on the following comparision:
