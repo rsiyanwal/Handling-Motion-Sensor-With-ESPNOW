@@ -23,3 +23,10 @@ When a Pyroelectric sensor is in a stable temperature environment, it doesn't pr
 Careful mounting of motion sensors is crucial for proper detection of movement. Improper mounting can result in failure to detect movement, as shown below, where mounting the sensor in such a way that the motion is generally in the z-axis may lead to undetected movement. Additionally, if the motion does not cause a change in temperature that can be detected by the Pyroelectric elements, detection may be uncertain. Higher detection zones in the sensor can improve the chances of detecting movement and reduce the risk of missed detections.
 ![Motion Detection Uncertain](https://user-images.githubusercontent.com/11557572/235132812-514763a3-985f-4a8f-a8cf-db8951bf715e.png)</br>
  _( A PIR Sensor may not detect movement if it is on Z-axis; by [Rahul Siyanwal](https://github.com/rsiyanwal))_
+
+This repository comes with three files:
+- [Motion-Detection-Basic.ino](Motion-Detection-Basic.ino): This is a very simple program designed to detect motion using a PIR sensor.
+- [Motion Data Sender ESPNOW.ino](Motion Data Sender ESPNOW.ino): This code detects motion using a motion sensor and then sends the motion data to a specific MAC address using the ESP-NOW protocol.
+- [Motion Data Receiver ESPNOW.ino](Motion Data Receiver ESPNOW.ino): This code runs on the receiver node and receives the motion sensor data sent using the ESP-NOW protocol.
+
+The last two codes provide the necessary functionality to send and receive motion sensor data using ESP-NOW protocol.
