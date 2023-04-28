@@ -26,7 +26,7 @@ Careful mounting of motion sensors is crucial for proper detection of movement. 
 
 This repository comes with three files:
 - [Motion-Detection-Basic.ino](Motion-Detection-Basic.ino): This is a very simple program designed to detect motion using a PIR sensor.
-- [Motion Data Sender ESPNOW.ino](Motion Data Sender ESPNOW.ino): This code detects motion using a motion sensor and then sends the motion data to a specific MAC address using the ESP-NOW protocol.
-- [Motion Data Receiver ESPNOW.ino](Motion Data Receiver ESPNOW.ino): This code runs on the receiver node and receives the motion sensor data sent using the ESP-NOW protocol.
+- [Motion Data Sender ESPNOW.ino](https://github.com/rsiyanwal/Handling-Motion-Sensor-With-ESPNOW/blob/b5ca8fd53c560df2fedc9001a19678475b8fd1ff/Motion%20Data%20Sender%20ESPNOW.ino): This code detects motion using a motion sensor and then sends the motion data to a specific MAC address using the ESP-NOW protocol.
+- [Motion Data Receiver ESPNOW.ino](https://github.com/rsiyanwal/Handling-Motion-Sensor-With-ESPNOW/blob/6fddce8c957dd676b4904b374b9096bc24ce725b/Motion%20Data%20Receiver%20ESPNOW.ino): This code runs on the receiver node and receives the motion sensor data sent using the ESP-NOW protocol.
 
 The last two codes provide the necessary functionality to send and receive motion sensor data using ESP-NOW protocol.
