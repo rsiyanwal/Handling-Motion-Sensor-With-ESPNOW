@@ -1,2 +1,7 @@
 # Handling-Motion-Sensor-With-NodeMCU
-Motion sensors play a crucial role in the functioning of IoT devices as they enable them to detect movement and react accordingly. They can be combined with other sensors, like temperature and humidity sensors, to build more advanced and responsive IoT systems that can adapt to their surroundings.
+Motion sensors play a crucial role in the functioning of IoT devices as they enable them to detect movement and react accordingly. They have versatile applications, including security systems, energy-efficient lighting, and smart home automation. Motion sensors can trigger actions like turning on lights or sending alerts to a user's phone, making them an essential tool for both convenience and safety. Moreover, they can be combined with other sensors, like temperature and humidity sensors, to build more advanced and responsive IoT systems that can adapt to their surroundings. Overall, motion sensors enhance the capabilities of IoT devices, making them more efficient and effective in their tasks.
+
+The Motion Sensor module (depicted in figure 6.1) comprises a Pyroelectric Sensor that produces energy upon exposure to heat. As a result, when a human or an animal body enters the sensor's range, it detects the movement since the body emits heat energy in the form of infrared radiation. The sensor doesn't use any energy for detection; it only operates by sensing energy emitted by other objects. For this reason, it's also known as a Passive Infrared Sensor or PIR Sensor.
+
+![Normal Connections vs. Pub-Sub Model](https://user-images.githubusercontent.com/11557572/196355586-4e4d3c15-4930-40b1-a8b9-cf2fcf7c7668.png)
+ _( by [Rahul Siyanwal](https://github.com/rsiyanwal))_
